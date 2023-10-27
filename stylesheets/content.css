@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+
+@font-face {
+    font-family: "HalvarBreit-Bd";
+    src: url("../fonts/HalvarBreit-Bd.ttf") format("truetype");
+    font-style: bold;
+    font-weight: bold;
+    }
+   
+    @font-face {
+    font-family: "HalvarBreit-BdSlanted";
+    src: url("../fonts/HalvarBreit-BdSlanted.ttf") format("truetype;");
+    font-style: italic;
+    font-weight: bold;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-BdSuSlanted";
+    src: url("../fonts/HalvarBreit-BdSuSlanted.ttf") format("truetype");
+    font-style: italic;
+    font-weight: bold;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-Blk";
+    src: url("../fonts/HalvarBreit-Blk.ttf") format("truetype");
+    font-style: bold;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-BlkSlanted";
+    src: url("../fonts/HalvarBreit-BlkSlanted.ttf") format("truetype");
+    font-style: bold;
+    font-weight: italic;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-BlkSuSlanted";
+    src: url("../fonts/HalvarBreit-BlkSuSlanted.ttf") format("truetype");
+    font-style: bold;
+    font-weight: italic;
+    }
+   
+    @font-face {
+    font-family: "HalvarBreit-Hl";
+    src: url("../fonts/HalvarBreit-Hl.ttf") format("truetype");
+    font-style: super thin;
+    font-weight: normal;
+    }
+    p{
+        font-family: 'HalvarBreit-Hl';
+    } 
+    @font-face {
+    font-family: "HalvarBreit-HlSlanted";
+    src: url("../fonts/HalvarBreit-Bd.HlSlanted") format("truetype");
+    font-style: super thin;
+    font-weight: italic;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-HlSuSlanted";
+    src: url("../fonts/HalvarBreit-Bd.HlSuSlanted") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-Lt";
+    src: url("../fonts/HalvarBreit-Lt.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-LtSlanted";
+    src: url("../fonts/HalvarBreit-LtSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-LtSuSlanted";
+    src: url("../fonts/HalvarBreit-LtSuSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-Md";
+    src: url("../fonts/HalvarBreit-Md.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-MdSlanted";
+    src: url("../fonts/HalvarBreit-MdSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-MdSuSlanted";
+    src: url("../fonts/HalvarBreit-MdSuSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-Rg";
+    src: url("../fonts/HalvarBreit-Rg.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    r{
+        font-family: 'HalvarBreit-Rg';
+    } 
+    @font-face {
+    font-family: "HalvarBreit-RgSlanted";
+    src: url("../fonts/HalvarBreit-RgSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-RgSuSlanted";
+    src: url("../fonts/HalvarBreit-RgSuSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-Th";
+    src: url("../fonts/HalvarBreit-Th.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-ThSlanted";
+    src: url("../fonts/HalvarBreit-ThSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-ThSuSlanted";
+    src: url("../fonts/HalvarBreit-ThSuSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-XBd";
+    src: url("../fonts/HalvarBreit-XBd.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-XBdSlanted";
+    src: url("../fonts/HalvarBreit-XBdSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-XBdSuSlanted";
+    src: url("../fonts/HalvarBreit-XBdSuSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-XTh";
+    src: url("../fonts/HalvarBreit-XTh.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-XThSlanted";
+    src: url("../fonts/HalvarBreit-XThSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+    
+    @font-face {
+    font-family: "HalvarBreit-XThSuSlanted";
+    src: url("../fonts/HalvarBreit-XThSuSlanted.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+    }
+     .glif1{
+        font-family: "HalvarBreit-MdSlanted";
+      font-size: 2500mm;
+     }

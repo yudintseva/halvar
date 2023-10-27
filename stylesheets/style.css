@@ -1,0 +1,87 @@
+@import "reset.css";/* сбрoc настроек браузера */
+@import "content.css"; /* контент / содержимое  */
+@import "responsive.css";/* адаптивность */
+
+
+.titul{
+    margin-top: -30px;
+    width: 1700px;
+    height: 1400px;
+    flex-shrink: 0;
+}
+.titul1{
+    margin-left: 100px;
+    margin-top: -700px;
+    width: 529px;
+    color: #000;
+    font-family: Halvar Breitschrift;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.star{
+    margin-top: -100px;
+    width: 100%;
+}
+.content-container{
+    background-color: #A4FF79;
+    width: 100%;
+    margin-top: -5px;
+}
+.glif1{
+    font-size: 250px;
+    text-align: right;
+    margin-right: 250px;
+    margin-top: -1200px;
+}
+.titul2{
+    width: 1610px;
+    text-align: center;
+}
+
+.head{
+  font-size: 100px;
+  font-family: "HalvarBreit-MdSlanted";
+  margin-top: 300px;
+  text-align: center;
+
+}
+
+.nachertania{
+    margin-top: -800px
+}
+.titul3{
+margin-left: 180px;
+margin-top: 30px;
+}
+
+.titul4{
+    margin-top: 40px;
+}
+.cifra1{
+  font-family: "HalvarBreit-Lt";
+  font-size: 30px;
+  margin-left: 74px;
+  margin-top: 30px;
+}
+.cifra{
+    margin-top: -300px;
+}
+.cifra1{
+    margin-top: 50px;
+}
+.cifra2{
+    margin-top: -220px;
+    margin-left: 640px;
+    font-size: 80px;
+    font-family: HalvarBreit-XBd;
+}
+.glif{
+    margin-top: -200px;
+}
+.titul7{
+    margin-top: 80px;
+    width: 100%;
+}
